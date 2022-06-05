@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Files</title>
+    </head>
+    <body>
+        <audio id="myAudio" src="audio.mp3"></audio>
+        <center>
+            <h1>Secret Files</h1>
+            <button><a href="secrets.html" onclick="playAudio()" target="blank">Click For Secret Files</a></button>
+        </center>
+        <script>
+            function playAudio()
+            {
+                var x= document.getElementById("myAudio");
+                x.play()
+            }
+        </script>
+    </body>
+</html>
